@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37622" started-at="2020-01-03T00:41:30 IST" finished-at="2020-01-03T00:42:08 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37622" started-at="2020-01-03T00:41:30 IST" finished-at="2020-01-03T00:42:08 IST">
+      <class name="com.technocredits.LoginTest">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.technocredits.LoginTest@1bbf57e]" name="start" is-config="true" duration-ms="27826" started-at="2020-01-03T00:41:31 IST" finished-at="2020-01-03T00:41:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="loginData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.technocredits.LoginTest@1bbf57e]" name="loginData" duration-ms="4123" started-at="2020-01-03T00:42:01 IST" data-provider="LoginDataProvider" finished-at="2020-01-03T00:42:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kush]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Punjabi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failed! please enter strong password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+        <test-method status="PASS" signature="loginData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.technocredits.LoginTest@1bbf57e]" name="loginData" duration-ms="1426" started-at="2020-01-03T00:42:05 IST" data-provider="LoginDataProvider" finished-at="2020-01-03T00:42:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[okokok]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[okokok]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failed! please enter strong password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+        <test-method status="PASS" signature="loginData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.technocredits.LoginTest@1bbf57e]" name="loginData" duration-ms="1515" started-at="2020-01-03T00:42:07 IST" data-provider="LoginDataProvider" finished-at="2020-01-03T00:42:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[okokok]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[okokokook]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+      </class> <!-- com.technocredits.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
